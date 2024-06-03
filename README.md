@@ -11,4 +11,15 @@ Installation
 
 Install the required Python packages:
 
-pip install requests twilioReplace the placeholders in the script with your actual API keys and phone numbers.
+pip install requests twilio
+
+Replace the placeholders in the script with your actual API keys and phone numbers.
+
+
+Usage
+
+Replace the placeholders (__YOUR_OWM_API_KEY__, __YOUR_TWILIO_ACCOUNT_ID__, __YOUR_TWILIO_AUTH_TOKEN__, YOUR TWILIO VIRTUAL NUMBER, YOUR TWILIO VERIFIED REAL NUMBER) with your actual values.
+
+Run the script using a Python interpreter:
+
+python weather_notification.py
